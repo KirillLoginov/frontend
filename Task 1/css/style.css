@@ -25,7 +25,7 @@
 }
 
 .text,
-.button {
+.buttons {
     font-family: 'Lato', sans-serif;
 }
 
@@ -34,7 +34,7 @@
     color: #060c31;
     line-height: 1.8;
     letter-spacing: 0.8px;
-    margin: 0 auto 43px;
+    margin: 0 auto 42px;
 }
 
 .buttons {
@@ -44,21 +44,21 @@
 .get_started,
 .account {
     font-size: 15px;
-    letter-spacing: 1.7px;
+    letter-spacing: 0.7px;
     border-radius: 25px;
     display: inline-block;
     text-decoration: none;
 }
 
 .get_started {
-    margin-right: 17px;
-    padding: 17px 35px;
+    margin-right: 16px;
+    padding: 16px 35px;
     color: #fff;
     background-color: #233fe2;
 }
 
 .account {
-    padding: 16px 24px;
+    padding: 16px 27px;
     border: 1px solid #ffb0b1;
     color: #060c31;
     background-color: #fff;
