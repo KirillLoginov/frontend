@@ -1,6 +1,6 @@
 * {
     margin: 0 auto;
-    max-width: 752px;
+    max-width: 945px;
 }
 
 .logo,
@@ -9,16 +9,17 @@
 }
 
 .logo {
-    margin: 40px auto 55px;
-    font-size: 29px;
+    margin: 50px auto 72px;
+    font-size: 34px;
     color: #060c32;
+    letter-spacing: 1.4px;
 }
 
 .title h1 {
-    margin: 0 auto 24px;
-    font-size: 47px;
+    margin: 0 auto 33px;
+    font-size: 58px;
     color: #060c31;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     line-height: 1.103;
     font-weight: 400;
 }
@@ -31,39 +32,39 @@
 .text {
     font-size: 15px;
     color: #060c31;
-    line-height: 1.5;
-    letter-spacing: -0.6px;
-    margin: 0 auto 33px;
+    line-height: 1.8;
+    letter-spacing: 0.8px;
+    margin: 0 auto 43px;
 }
 
-.button {
-    margin: 0 0 22px 0;
+.buttons {
+    margin: 0 0 27px 0;
 }
 
-.button_1,
-.button_2 {
-    font-size: 12px;
-    letter-spacing: 0.5px;
-    border-radius: 20px;
+.get_started,
+.account {
+    font-size: 15px;
+    letter-spacing: 1.7px;
+    border-radius: 25px;
     display: inline-block;
     text-decoration: none;
 }
 
-.button_1 {
-    margin-right: 12px;
-    padding: 12px 28px;
+.get_started {
+    margin-right: 17px;
+    padding: 17px 35px;
     color: #fff;
     background-color: #233fe2;
 }
 
-.button_2 {
-    padding: 12px 21px;
+.account {
+    padding: 16px 24px;
     border: 1px solid #ffb0b1;
     color: #060c31;
     background-color: #fff;
 }
 
 .image img {
-    width: 77%;
-    margin: 0 0 0 -25px;
+    /*    width: 77%;*/
+    margin: 0 0 0 -28px;
 }
