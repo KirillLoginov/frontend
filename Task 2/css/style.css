@@ -42,26 +42,14 @@ a {
     padding: 13px 28px;
 }
 
-.clear_menu {
-    clear: both;
-}
-
 .image {
     float: right;
     display: inline-block;
 }
 
-.clear_image {
-    clear: left;
-}
-
 .wrapper_text {
     float: left;
     margin: 93px 0 0 0;
-}
-
-.clear_text {
-    clear: both;
 }
 
 .container {
@@ -116,6 +104,11 @@ footer img {
     padding: 0 98px 40px 0;
 }
 
-.clear_footer {
+.clear_menu,
+.clear_text {
     clear: both;
+}
+
+.clear_image {
+    clear: left;
 }
