@@ -1,0 +1,149 @@
+* {
+    margin: 0 auto;
+    max-width: 1447px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo,
+.menu li {
+    display: inline-block;
+}
+
+.logo {
+    font-family: 'Crete Round', serif;
+    font-size: 34px;
+    color: #060c31;
+    margin: 51px 0 0 90px;
+    transform: translateY(20px);
+    transition: .3s;
+    opacity: 0;
+}
+
+.loaded .logo,
+.loaded .menu,
+.loaded .title,
+.loaded .text,
+.loaded .buttons a,
+.loaded .image,
+.loaded footer {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.menu {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    float: right;
+    margin: 69px 44px 0 0;
+    transform: translateY(50px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.menu li a {
+    color: #060c31;
+}
+
+.menu li {
+    padding: 0 37px 0 0;
+}
+
+.button_menu {
+    border: 2px solid #ffb0b1;
+    border-radius: 25px;
+    padding: 13px 28px;
+}
+
+.image {
+    float: right;
+    transform: translateY(400px) scale(0.2);
+    transition: 1.3s .9s;
+    opacity: 0;
+}
+
+.wrapper_text {
+    float: left;
+    margin: 93px 0 0 0;
+}
+
+.container {
+    margin: 74px 0 106px 200px;
+}
+
+.title,
+.text {
+    font-weight: 300;
+    color: #060c31;
+}
+
+.title {
+    font-family: 'Crete Round', serif;
+    font-size: 58px;
+    line-height: 64px;
+    transform: translateY(100px);
+    transition: 1s .5s;
+    opacity: 0;
+}
+
+.loaded .title {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.16px;
+    margin: 37px 0 70px 0;
+    transform: translateY(100px);
+    transition: 1s .75s;
+    opacity: 0;
+}
+
+.buttons a {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border-radius: 25px;
+    margin: 0 14px 0 0;
+    transform: translateY(100px);
+    transition: 1s .85s;
+    opacity: 0;
+}
+
+.get {
+    background-color: #233fe2;
+    padding: 17px 38px;
+    color: #fff;
+}
+
+.create {
+    border: 2px solid #ffb0b1;
+    padding: 15px 25px;
+    color: #060c31;
+}
+
+footer {
+    float: right;
+    transform: translateY(100px);
+    transition: 1s 1.4s;
+    opacity: 0;
+}
+
+footer img {
+    padding: 0 98px 40px 0;
+}
+
+.clear_menu,
+.clear_text {
+    clear: both;
+}
+
+.clear_image {
+    clear: left;
+}
