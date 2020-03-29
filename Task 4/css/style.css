@@ -219,6 +219,8 @@
     height: 60px;
 }
 
+
+
 .input_name {
     width: 510px;
 }
@@ -228,6 +230,7 @@
 }
 
 .select_subscribe {
+    color: #000;
     width: 540px;
     cursor: pointer;
     appearance: none;
