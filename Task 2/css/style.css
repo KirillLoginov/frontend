@@ -103,11 +103,6 @@ footer img {
     padding: 0 98px 40px 0;
 }
 
-.clear_menu,
-.clear_text {
+.clear {
     clear: both;
-}
-
-.clear_image {
-    clear: left;
 }
