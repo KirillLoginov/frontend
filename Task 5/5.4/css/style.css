@@ -169,7 +169,7 @@ footer img {
     .wrapper_text {
         float: none;
         text-align: center;
-        max-width: 80%;
+        max-width: 50%;
         margin: 0 auto;
     }
 
@@ -215,6 +215,7 @@ footer img {
     }
 }
 
+
 @media screen and (max-width: 870px) {
 
     .title {
@@ -229,6 +230,12 @@ footer img {
 
     footer img:first-child {
         padding: 20px 0 15px 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper_text {
+        max-width: 70%;
     }
 }
 
