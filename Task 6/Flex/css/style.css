@@ -158,7 +158,6 @@ footer img {
     .loaded footer {
         transition: none;
     }
-
 }
 
 @media screen and (max-width: 1450px) {
