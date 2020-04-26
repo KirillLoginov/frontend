@@ -35,6 +35,7 @@ nav {
 .loaded footer {
     transform: translateY(0);
     opacity: 1;
+
 }
 
 .menu {
@@ -157,6 +158,7 @@ footer img {
     .loaded footer {
         transition: none;
     }
+
 }
 
 @media screen and (max-width: 1450px) {
@@ -171,7 +173,6 @@ footer img {
     .container {
         margin: 0;
     }
-
 
     .image img {
         max-width: 100%;
