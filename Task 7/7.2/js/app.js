@@ -7,14 +7,10 @@ let userAge = prompt('Ваш возраст');
 
 let wrapper = document.getElementById('promoWrapper');
 
-userAge = (userAge) || (wrapper);
+userAge = (userAge) || 35;
 
 if (userAge < 16) {
-    wrapper.classList.remove('promo_wrapper');
     wrapper.classList.add('aquapark');
-    wrapper.classList.toggle('promo_wrapper');
 } else if (userAge < 35) {
-    wrapper.classList.remove('promo_wrapper');
     wrapper.classList.add('club');
-    wrapper.classList.toggle('promo_wrapper');
 }
